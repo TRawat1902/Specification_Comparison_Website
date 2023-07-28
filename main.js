@@ -16,10 +16,6 @@ fetch('https://dummyjson.com/products').then((data)=>{
     <option value="${i}">${data.products[i].title}</option>
     `;
 
-
-
-
-
 }
     })
 
@@ -97,15 +93,10 @@ if (a != select1)
 
     }
 
-  
 }
     )
 
-
-
 }
-
-
 
 
 
